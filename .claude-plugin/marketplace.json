@@ -1,0 +1,18 @@
+{
+  "name": "proactive-engineering",
+  "owner": {
+    "name": "Digit Progress"
+  },
+  "metadata": {
+    "description": "Proportionate engineering judgment for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "proactive-engineering",
+      "source": "./",
+      "description": "Surfaces the decisions, risks and existing solutions that matter, and stays quiet otherwise.",
+      "category": "development",
+      "tags": ["engineering", "architecture", "decisions", "risk", "reuse"]
+    }
+  ]
+}

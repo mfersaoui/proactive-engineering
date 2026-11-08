@@ -1,0 +1,5 @@
+# Only what differs from the defaults.
+research:
+  web: never
+floor:
+  db_migration: propose_only

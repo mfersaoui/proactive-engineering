@@ -1,0 +1,14 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local Claude Code state for this checkout (the example project's .claude/ is tracked)
+/.claude/
+
+# Local Proactive Engineering state
+.proactive/local/
+.proactive/config.local.yaml
+
+# Scenario result files
+scenario-results*.json

@@ -1,0 +1,20 @@
+{
+  "name": "proactive-engineering",
+  "version": "1.0.0-rc.1",
+  "private": true,
+  "description": "Development scripts for the Proactive Engineering Claude Code plugin. No runtime dependencies.",
+  "license": "MIT",
+  "author": "Digit Progress",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfersaoui/proactive-engineering.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/check-records.test.mjs tests/plugin-structure.test.mjs",
+    "check:example": "node scripts/check-records.mjs --root examples/shop-api --strict",
+    "scenarios": "node tests/scenarios/run.mjs"
+  }
+}

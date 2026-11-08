@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "ask": [
+      "Bash(npm install *)",
+      "Edit(/migrations/**)",
+      "Edit(/src/billing/**)",
+      "Edit(/docs/adr/**)"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "proactive-engineering",
+  "displayName": "Proactive Engineering",
+  "version": "1.0.0-rc.1",
+  "description": "Proportionate engineering judgment for Claude Code: surfaces the decisions, risks and existing solutions that matter, and stays quiet otherwise.",
+  "author": {
+    "name": "Digit Progress"
+  },
+  "homepage": "https://github.com/mfersaoui/proactive-engineering",
+  "repository": "https://github.com/mfersaoui/proactive-engineering",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "architecture",
+    "decisions",
+    "adr",
+    "risk",
+    "reuse",
+    "code-quality"
+  ],
+  "userConfig": {
+    "profile": {
+      "type": "string",
+      "title": "Default profile",
+      "description": "How much Proactive Engineering speaks up by default: observer (only high stakes), balanced (stops before structural choices) or driver (prepares more, still asks on sensitive actions). A project can override it in .proactive/config.yaml.",
+      "default": "balanced",
+      "required": false
+    }
+  }
+}
